@@ -9,4 +9,3 @@ def factorial(number):
 
 def find_paths(grid_height, grid_width):
     return (factorial(grid_height+grid_width)//factorial(grid_width))//factorial(grid_height)
-print(find_paths(20,20))
