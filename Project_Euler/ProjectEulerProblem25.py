@@ -6,5 +6,4 @@ def nth_Digit_Fibbonacci(num_digits):
         i += 1
         a,b = b,a+b
         l = len(str(b))
-
     return i
