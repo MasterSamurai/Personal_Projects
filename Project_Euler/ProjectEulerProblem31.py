@@ -8,4 +8,3 @@ def diff_Combinations_Coins(coin_denominations, target):
         for i in range(coin,target+1):
             c[i] += c[i-coin]
     return c[target]
-print(diff_Combinations_Coins(coins, 200))
