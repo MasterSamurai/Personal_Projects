@@ -4,5 +4,5 @@ def find_even_fibonnacci_sum(limit):
     a, b, c = 0, 1, [0]
     while b <= limit:
       a, b = b, a + b
-        c.append(b)
+      c.append(b)
     return sum([d for d in c if d % 2 == 0])
