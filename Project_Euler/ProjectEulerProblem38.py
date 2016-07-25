@@ -18,7 +18,7 @@ def containsAllDigitsOnce(num):
 
 def largestPandigitalMultiple():
     largest = 0
-    for i in range(1,10000):
+    for i in range(10000,1,-1):
         for j in range(2,10):
             string = ''
             for k in range(1,j):
